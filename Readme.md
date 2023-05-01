@@ -5,3 +5,4 @@ Directory: C:\Users\Scott\docker\buddy
 docker build -t jagger:23Mar .
 
 Readme update 12-April
+4:18pm
