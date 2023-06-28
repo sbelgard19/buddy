@@ -1,0 +1,38 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicateType": "https://gitsign.sigstore.dev/predicate/git/v0.1",
+  "subject": [
+    {
+      "name": "https://github.com/sbelgard19/buddy.git",
+      "digest": {
+        "sha1": "e3c4f4047f7c94d53308fc1862a5a3d3b5276bfd"
+      }
+    }
+  ],
+  "predicate": {
+    "source": {
+      "tree": "f57289bed316d9ec5a51c5860a8e48fbe80ba28b",
+      "parents": [
+        "746d855e637031df3829380c3a87a6fc3c0393ae"
+      ],
+      "author": {
+        "name": "Scott Belgard",
+        "email": "scott.belgard.ctr@us.af.mil",
+        "date": "2023-05-03T11:27:38-04:00"
+      },
+      "committer": {
+        "name": "Scott Belgard",
+        "email": "scott.belgard.ctr@us.af.mil",
+        "date": "2023-05-03T11:27:38-04:00"
+      },
+      "message": "3-May 11:27 w/gitsign\n"
+    },
+    "signature": "-----BEGIN SIGNED MESSAGE-----\nMIIEOgYJKoZIhvcNAQcCoIIEKzCCBCcCAQExDTALBglghkgBZQMEAgEwCwYJKoZI\nhvcNAQcBoIIC2jCCAtYwggJcoAMCAQICFHPCcdhZlE0l8QmZ0ci+StgWuzZqMAoG\nCCqGSM49BAMDMDcxFTATBgNVBAoTDHNpZ3N0b3JlLmRldjEeMBwGA1UEAxMVc2ln\nc3RvcmUtaW50ZXJtZWRpYXRlMB4XDTIzMDUwMzE1Mjc1NFoXDTIzMDUwMzE1Mzc1\nNFowADBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABBCOeyNhD4iDVIsWW6AGbZBb\nZviO4uLBX3ue11sctx5Oqga1Zt85RXKKC1BSCoW7Sabx5ODV9QSMXpBe3OT/43yj\nggF7MIIBdzAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYD\nVR0OBBYEFFkpeI4pQrbIJgZOCicgVDOEOcxQMB8GA1UdIwQYMBaAFN/T6c9WJBGW\n+ajY6ShVosYuGGQ/MCUGA1UdEQEB/wQbMBmBF2JlbGdhcmQuc2NvdHRAZ21haWwu\nY29tMCwGCisGAQQBg78wAQEEHmh0dHBzOi8vZ2l0aHViLmNvbS9sb2dpbi9vYXV0\naDAuBgorBgEEAYO/MAEIBCAMHmh0dHBzOi8vZ2l0aHViLmNvbS9sb2dpbi9vYXV0\naDCBigYKKwYBBAHWeQIEAgR8BHoAeAB2AN09MGrGxxEyYxkeHJlnNwKiSl643jyt\n/4eKcoAvKe6OAAABh+I6JqgAAAQDAEcwRQIgFYA9yZa/e7YMClHaroS2jmlMAUAj\n8V1mfj9TG/Kl0OQCIQDPFOhadcj/0E9tCZASqJkPiPc4rU+BDXblpVLofJRfnjAK\nBggqhkjOPQQDAwNoADBlAjAScYvjRtOpcV8j00bK+YD/TMNK3OA5GzrKFjJa2Dm9\npe7MEDE/q+YJ+IlnHIqoTigCMQCa9701Z1MS+Wa8s/NjWvh6LpkmYaIrFruP0EW4\nTGxau8gg2mS+nNCjX+Tt0OfRTWcxggEmMIIBIgIBATBPMDcxFTATBgNVBAoTDHNp\nZ3N0b3JlLmRldjEeMBwGA1UEAxMVc2lnc3RvcmUtaW50ZXJtZWRpYXRlAhRzwnHY\nWZRNJfEJmdHIvkrYFrs2ajALBglghkgBZQMEAgGgaTAYBgkqhkiG9w0BCQMxCwYJ\nKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yMzA1MDMxNTI3NTRaMC8GCSqGSIb3\nDQEJBDEiBCDnPZb2PxopZhkIWeAWuTPJinMTZaLM4BFG4eNG/58LvjAKBggqhkjO\nPQQDAgRIMEYCIQCZcc1pvGkClGoiGjFMJgGqrB57UeN287DaNNiQRkGJaQIhANeJ\nCvgeADsz+Z7pwQahe0vW67yj+3iShJx8SC++Dyfi\n-----END SIGNED MESSAGE-----\n",
+    "signer_info": [
+      {
+        "attributes": "MWkwGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwNTAzMTUyNzU0WjAvBgkqhkiG9w0BCQQxIgQg5z2W9j8aKWYZCFngFrkzyYpzE2WizOARRuHjRv+fC74=",
+        "certificate": "-----BEGIN CERTIFICATE-----\nMIIC1jCCAlygAwIBAgIUc8Jx2FmUTSXxCZnRyL5K2Ba7NmowCgYIKoZIzj0EAwMw\nNzEVMBMGA1UEChMMc2lnc3RvcmUuZGV2MR4wHAYDVQQDExVzaWdzdG9yZS1pbnRl\ncm1lZGlhdGUwHhcNMjMwNTAzMTUyNzU0WhcNMjMwNTAzMTUzNzU0WjAAMFkwEwYH\nKoZIzj0CAQYIKoZIzj0DAQcDQgAEEI57I2EPiINUixZboAZtkFtm+I7i4sFfe57X\nWxy3Hk6qBrVm3zlFcooLUFIKhbtJpvHk4NX1BIxekF7c5P/jfKOCAXswggF3MA4G\nA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUWSl4\njilCtsgmBk4KJyBUM4Q5zFAwHwYDVR0jBBgwFoAU39Ppz1YkEZb5qNjpKFWixi4Y\nZD8wJQYDVR0RAQH/BBswGYEXYmVsZ2FyZC5zY290dEBnbWFpbC5jb20wLAYKKwYB\nBAGDvzABAQQeaHR0cHM6Ly9naXRodWIuY29tL2xvZ2luL29hdXRoMC4GCisGAQQB\ng78wAQgEIAweaHR0cHM6Ly9naXRodWIuY29tL2xvZ2luL29hdXRoMIGKBgorBgEE\nAdZ5AgQCBHwEegB4AHYA3T0wasbHETJjGR4cmWc3AqJKXrjePK3/h4pygC8p7o4A\nAAGH4jomqAAABAMARzBFAiAVgD3Jlr97tgwKUdquhLaOaUwBQCPxXWZ+P1Mb8qXQ\n5AIhAM8U6Fp1yP/QT20JkBKomQ+I9zitT4ENduWlUuh8lF+eMAoGCCqGSM49BAMD\nA2gAMGUCMBJxi+NG06lxXyPTRsr5gP9Mw0rc4DkbOsoWMlrYOb2l7swQMT+r5gn4\niWcciqhOKAIxAJr3vTVnUxL5Zryz82Na+HoumSZhoisWu4/QRbhMbFq7yCDaZL6c\n0KNf5O3Q59FNZw==\n-----END CERTIFICATE-----\n"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+
+ 1494  git commit -m "12-April 4:19pm"
+ 1495  git show
+ 1497  git config --global user.signingkey 28FA396B954A0B4E9FD9A407E70B414ECFBE01D2
+ 1498  git tag
+ 1499  git tag v1.4-lw
+ 1500  git tag
+ 1501  git tag -s MYTAG
+ 1502  git tag -v MYTAG
+ 1503  git tag -S MYTAG
+ 1504  git tag -s MYTAG
+ 1557  find . -name gitsign
+ 1560  cp /root/go/bin/gitsign .
+ 1561  gitsign
+ 1562  gitsign --version
+ 1800  git clone https://github.com/chainguard-dev/edu-images-demos.git
+ 1825  mv .gitconfig ..
+ 1826  mv .gitconfig.save ..
+ 
+ 2000  git show
+ 2001  history | grep git
+ 2002  history | grep git > git.txt
