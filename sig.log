@@ -1,0 +1,304 @@
+commit 9c676e2da37f64f4fe6b75e73c155048b8b1248d
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jul 12 16:34:46 2023 -0400
+
+    Delete 6 files
+
+commit b7ebba591c2f2bf4dd2dcb66f3cb257a67da96cf
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jul 12 16:25:40 2023 -0400
+
+    3 files by Github Desktop
+
+commit e4d962ab2fa90adee7e511bcb2a81619997ffeb2
+tlog index: 27252657
+gitsign: Signature made using certificate ID 0x5148e0865fe8dd9f46cf1c156a6971d341d7f4e9 | CN=sigstore-intermediate,O=sigstore.dev
+gitsign: Good signature from [belgard.scott@gmail.com](https://github.com/login/oauth)
+Validated Git signature: true
+Validated Rekor entry: true
+Validated Certificate claims: false
+WARNING: git verify-commit does not verify cert claims. Prefer using `gitsign verify` instead.
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jul 12 12:54:56 2023 -0400
+
+    added two files 12:54
+
+commit 8c420bd54db80734cb7ac02db82cc1989c0b4bf2
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Fri Jun 30 11:09:40 2023 -0400
+
+    delete file1100
+
+commit 381da290b3d60920936340bf7a6d3a4d763df4c3
+Merge: bb1a3a1 80d4fee
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Fri Jun 30 11:04:54 2023 -0400
+
+    Merge branch 'main' of https://github.com/sbelgard19/buddy
+
+commit bb1a3a1f6730f3a3f2e10cdb08d639917655b270
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Fri Jun 30 11:00:52 2023 -0400
+
+    file 1100
+
+commit 80d4fee6ca88ef98b1b377d18050075a4e556ee7
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Fri Jun 30 11:00:52 2023 -0400
+
+    file 1100
+
+commit faaae91410aab968cf5a1021ca03355a66ce43cb
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Fri Jun 30 10:51:03 2023 -0400
+
+    delete file1050
+
+commit cc5e8577aee38131ce95e9c8c0922957258f7970
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Fri Jun 30 08:56:58 2023 -0400
+
+    Fri 8:57
+
+commit cd45b63f2b43c685b529e09b0f79a592a35ffb10
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Fri Jun 30 08:41:33 2023 -0400
+
+    Fri 3-files
+
+commit 8ae9bb16b6aa0df95e20b5946f045a21f8fcb79a
+tlog index: 25580212
+gitsign: Signature made using certificate ID 0x176b43a9fe1104f9307846dd3cacddda819a5d00 | CN=sigstore-intermediate,O=sigstore.dev
+gitsign: Good signature from [belgard.scott@gmail.com](https://github.com/login/oauth)
+Validated Git signature: true
+Validated Rekor entry: true
+Validated Certificate claims: false
+WARNING: git verify-commit does not verify cert claims. Prefer using `gitsign verify` instead.
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Thu Jun 29 10:52:04 2023 -0400
+
+    added file1050
+
+commit 43f99f9b3c0e292b05a85a7aa270c9058d472988
+gpg: Signature made Thu Jun 29 10:04:46 2023 EDT
+gpg:                using RSA key 94D88EA378C2C5F83255ED831C95DC7239D4DFA0
+gpg: Good signature from "Scott Belgard <belgard.scott@gmail.com>" [ultimate]
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Thu Jun 29 10:04:46 2023 -0400
+
+    added 29June.txt 10:04
+
+commit eb18575001db0dd76752858d3a5f17e6bf159f56
+gpg: Signature made Wed Jun 28 16:41:33 2023 EDT
+gpg:                using RSA key 94D88EA378C2C5F83255ED831C95DC7239D4DFA0
+gpg: Good signature from "Scott Belgard <belgard.scott@gmail.com>" [ultimate]
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jun 28 16:41:32 2023 -0400
+
+    added foo  4:12
+
+commit f0f42c1bfbb72cd1b38677f33786b9b37fb7313e
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jun 28 16:18:01 2023 -0400
+
+    delete abc and foo
+
+commit a6e635ce42a9223f6b02df7ea15f347bd5a0e457
+gpg: Signature made Wed Jun 28 15:35:24 2023 EDT
+gpg:                using RSA key 94D88EA378C2C5F83255ED831C95DC7239D4DFA0
+gpg: Good signature from "Scott Belgard <belgard.scott@gmail.com>" [ultimate]
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jun 28 15:35:23 2023 -0400
+
+    3:35
+
+commit 116e814fe2224ad7c53a334f19eabf3fc6f59891
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jun 28 13:14:57 2023 -0400
+
+    Create foo.txt
+
+commit f31d781cc826dcf539256d31f11fad8cdcf36195
+Author: Scott Belgard <belgard.scott@gmail.com>
+Date:   Wed Jun 28 12:37:47 2023 -0400
+
+    28 June GPG and SSH keys
+
+commit 89e1300dbc9b4237edd8e4ccbe65c10be80137d0
+Author: Scott Belgard <belgard.scott@gmail.com>
+Date:   Wed Jun 28 11:28:41 2023 -0400
+
+    11:28
+
+commit 620e0dedb9fbfc0cd5415f267f343ce971696577
+Author: root <root@DESKTOP-PIP4NPJ>
+Date:   Wed Jun 28 11:13:26 2023 -0400
+
+    11:13
+
+commit 6f092f15b3f2e39a278cb8508574779ad33ff399
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Jun 28 11:09:07 2023 -0400
+
+    28-June 11:08
+
+commit e3c4f4047f7c94d53308fc1862a5a3d3b5276bfd
+tlog index: 19602942
+gitsign: Signature made using certificate ID 0x863adcb584d9a141397b441911a0b5df7814a695 | CN=sigstore-intermediate,O=sigstore.dev
+gitsign: Good signature from [belgard.scott@gmail.com](https://github.com/login/oauth)
+Validated Git signature: true
+Validated Rekor entry: true
+Validated Certificate claims: false
+WARNING: git verify-commit does not verify cert claims. Prefer using `gitsign verify` instead.
+Author: Scott Belgard <scott.belgard.ctr@us.af.mil>
+Date:   Wed May 3 11:27:38 2023 -0400
+
+    3-May 11:27 w/gitsign
+
+commit 746d855e637031df3829380c3a87a6fc3c0393ae
+tlog index: 19602722
+gitsign: Signature made using certificate ID 0x1f5b2e6d57a34b95ffe24c9886968433bc4dfd7b | CN=sigstore-intermediate,O=sigstore.dev
+gitsign: Good signature from [belgard.scott@gmail.com](https://github.com/login/oauth)
+Validated Git signature: true
+Validated Rekor entry: true
+Validated Certificate claims: false
+WARNING: git verify-commit does not verify cert claims. Prefer using `gitsign verify` instead.
+Author: Scott Belgard <scott.belgard.ctr@us.af.mil>
+Date:   Wed May 3 11:23:03 2023 -0400
+
+    3-May 11:22 w/gitsign
+
+commit 92d48c9292dccd3dcf0a9aeaba96b7c62164d635
+tlog index: 19596954
+gitsign: Signature made using certificate ID 0xbd1e3a92d4da8e476b571a421a193f4c0f116d55 | CN=sigstore-intermediate,O=sigstore.dev
+gitsign: Good signature from [belgard.scott@gmail.com](https://github.com/login/oauth)
+Validated Git signature: true
+Validated Rekor entry: true
+Validated Certificate claims: false
+WARNING: git verify-commit does not verify cert claims. Prefer using `gitsign verify` instead.
+Author: Scott Belgard <scott.belgard.ctr@us.af.mil>
+Date:   Wed May 3 10:01:39 2023 -0400
+
+    3-May 10:01 w/gitsign
+
+commit 26a909a26a716704e05198925ac5aa2359170a58
+tlog index: 19596069
+gitsign: Signature made using certificate ID 0xe60d1270bb97e92763f3c4cc3f2dcf7086de49a2 | CN=sigstore-intermediate,O=sigstore.dev
+gitsign: Good signature from [belgard.scott@gmail.com](https://github.com/login/oauth)
+Validated Git signature: true
+Validated Rekor entry: true
+Validated Certificate claims: false
+WARNING: git verify-commit does not verify cert claims. Prefer using `gitsign verify` instead.
+Author: Scott Belgard <scott.belgard.ctr@us.af.mil>
+Date:   Wed May 3 09:47:07 2023 -0400
+
+    3-May 9:46 w/gitsign
+
+commit ef29a700747481ab91063fd61ed8840556128577
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed May 3 09:28:35 2023 -0400
+
+    updated 3-May 09:27
+
+commit 5a94b932cd12cf24db95ff28be02e5b06c6c7f6d
+gpg: Signature made Tue May  2 15:42:07 2023 EDT
+gpg:                using RSA key EBDD05E7F711E83EA05425C44B016038F7242183
+gpg: Can't check signature: No public key
+Author: Scott Belgard <scott.belgard.ctr@us.af.mil>
+Date:   Tue May 2 15:42:07 2023 -0400
+
+    2-May 15:41
+
+commit f9e970ef41995819322d75fdc4e6a7f813d7c06d
+gpg: Signature made Tue May  2 15:25:30 2023 EDT
+gpg:                using RSA key EBDD05E7F711E83EA05425C44B016038F7242183
+gpg: Can't check signature: No public key
+Author: Scott Belgard <scott.belgard.ctr@us.af.mil>
+Date:   Tue May 2 15:25:30 2023 -0400
+
+    2-May 15:23
+
+commit 4f79861d2b5a237551365a606b94ed8432904fc3
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Tue May 2 15:20:16 2023 -0400
+
+    2-May 15:19
+
+commit a20bf29f1103ddfe8451965a1efae24875ee28fa
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Tue May 2 15:18:53 2023 -0400
+
+    Update temp.txt
+    
+    2-May 15:11
+
+commit cee9b18b21c1b635849658c3d8d11a6b6bc5674a
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Tue May 2 11:41:25 2023 -0400
+
+    Update temp.txt
+    
+    updated 2-May 11:40
+
+commit 77bcd9913850b36e584cd40b9366faa31d9e6db8
+gpg: Signature made Tue May  2 10:53:27 2023 EDT
+gpg:                using RSA key EBDD05E7F711E83EA05425C44B016038F7242183
+gpg: Can't check signature: No public key
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Tue May 2 10:53:27 2023 -0400
+
+    2-May 10:54
+
+commit a315c80ca82bfcd8d46c0304ed2a7769efd6448f
+gpg: Signature made Tue May  2 10:48:59 2023 EDT
+gpg:                using RSA key EBDD05E7F711E83EA05425C44B016038F7242183
+gpg: Can't check signature: No public key
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Tue May 2 10:48:58 2023 -0400
+
+    2-May 10:48
+
+commit 5d2ffd97f49725b2f91b7c2f3e0024529e93ee1b
+gpg: Signature made Tue May  2 10:43:56 2023 EDT
+gpg:                using RSA key EBDD05E7F711E83EA05425C44B016038F7242183
+gpg: Can't check signature: No public key
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Tue May 2 10:43:56 2023 -0400
+
+    2-May 10:08
+
+commit e59457d41ff929490afd1579965cf4fe3db915c9
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Mon May 1 15:30:33 2023 -0400
+
+    Update temp.txt
+
+commit 0b8b31460dc137e6134945a4b7fd628137dbcbd0
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Mon May 1 14:44:07 2023 -0400
+
+    Update temp.txt
+
+commit 305b6e5e3eaeed8c190abb0ef8bb2816d6125c20
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Mon May 1 14:40:56 2023 -0400
+
+    Delete NPE-1.key
+
+commit f5af53dadd6fcabf1b02daf8e37795e5b5c48b19
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Mon May 1 13:25:58 2023 -0400
+
+    add two files
+
+commit 97d6efa1c4dce7142163f0b4c0a1f1135dd54d25
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Apr 12 16:06:37 2023 -0400
+
+    Update Readme.md
+
+commit 148407941d23b9153128c8064177350235f11ad9
+Author: sbelgard19 <belgard.scott@gmail.com>
+Date:   Wed Apr 12 16:05:03 2023 -0400
+
+    load basic files
