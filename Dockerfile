@@ -5,7 +5,7 @@
 FROM cgr.dev/chainguard/wolfi-base
 RUN apk add nginx
 
-# okta
+# or okta
 COPY html/okta.html       /var/lib/nginx/html/index.html
 # or normal
 COPY html/index.html       /var/lib/nginx/html/index.html

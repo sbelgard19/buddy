@@ -1,0 +1,75 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 12 (0xc)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, ST=MA, L=Hull, O=U.S. Government, OU=USAF, CN=SubCA
+        Validity
+            Not Before: Jun  8 18:24:54 2023 GMT
+            Not After : Jun  7 18:24:54 2024 GMT
+        Subject: C=US, ST=MA, L=Hull, O=U.S. Government, OU=USAF, CN=My-NGINX.eitass.af.mil
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:f5:c8:23:54:fa:f4:01:f6:9a:5f:43:03:a5:af:
+                    20:5a:12:58:b6:52:c2:d0:7b:78:59:1b:c9:d2:ec:
+                    58:b1:64:32:8d:bb:14:01:1c:8d:e7:c0:db:38:e7:
+                    cf:91:1a:17:a9:0f:86:83:d0:d0:f2:2b:89:84:e2:
+                    17:6d:7e:e4:6e
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                C5:9B:86:67:C6:F4:CA:EE:3F:42:01:F0:B7:C5:CD:A1:70:22:D7:72
+            X509v3 Authority Key Identifier: 
+                EC:4F:6F:2E:E6:F6:64:EC:17:30:2A:10:76:C2:BD:38:7A:DA:A0:AF
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://localhost:8000/crl/distripoint.crl.pem
+            X509v3 Certificate Policies: 
+                Policy: 2.16.840.1.101.2.1.11.36
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: critical
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:localhost, IP Address:1.1.1.4
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        5e:c7:c3:ca:ae:9d:8c:e8:09:27:14:95:82:63:cd:83:75:8c:
+        cd:91:5f:04:76:36:b6:e8:bd:21:6b:2b:f4:6a:02:c3:2a:81:
+        9e:6f:f6:73:1d:6c:e0:af:87:64:34:90:46:0b:0c:94:21:0c:
+        1e:6a:47:ee:55:9c:38:96:c7:6a:ab:81:be:de:ba:36:ab:0d:
+        db:5a:cd:9b:9f:05:93:33:57:94:0b:94:6d:37:df:6c:be:61:
+        75:d4:21:5e:9d:bd:b0:46:2f:aa:f1:05:66:72:d7:50:4a:f6:
+        16:2f:09:cc:74:ed:0f:fa:6c:f7:f4:7b:39:e7:03:76:48:ed:
+        d7:0b:19:94:cd:be:1c:3e:25:39:c4:bf:c0:42:8b:39:f8:1e:
+        7d:3c:8a:f5:e7:40:2c:31:da:f8:f7:ee:25:cb:12:5d:ee:da:
+        9c:2e:b3:10:d3:b5:8c:4c:d6:0d:d4:59:15:39:cd:9c:a4:58:
+        b8:06:ac:a5:2c:0f:84:7c:7d:fa:a0:51:5a:7c:88:a7:c6:e9:
+        2f:7c:56:92:53:f5:67:6a:74:2d:78:a5:97:8b:af:02:58:26:
+        a7:5b:2a:89:a6:10:2b:65:bb:c4:9a:7f:83:81:e5:e1:e4:0a:
+        ac:ee:ff:dc:43:c8:3f:c9:af:b5:b2:da:e2:ce:51:32:27:be:
+        35:5f:d5:72
+-----BEGIN CERTIFICATE-----
+MIIDbzCCAlegAwIBAgIBDDANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJVUzEL
+MAkGA1UECAwCTUExDTALBgNVBAcMBEh1bGwxGDAWBgNVBAoMD1UuUy4gR292ZXJu
+bWVudDENMAsGA1UECwwEVVNBRjEOMAwGA1UEAwwFU3ViQ0EwHhcNMjMwNjA4MTgy
+NDU0WhcNMjQwNjA3MTgyNDU0WjBzMQswCQYDVQQGEwJVUzELMAkGA1UECAwCTUEx
+DTALBgNVBAcMBEh1bGwxGDAWBgNVBAoMD1UuUy4gR292ZXJubWVudDENMAsGA1UE
+CwwEVVNBRjEfMB0GA1UEAwwWTXktTkdJTlguZWl0YXNzLmFmLm1pbDBZMBMGByqG
+SM49AgEGCCqGSM49AwEHA0IABPXII1T69AH2ml9DA6WvIFoSWLZSwtB7eFkbydLs
+WLFkMo27FAEcjefA2zjnz5EaF6kPhoPQ0PIriYTiF21+5G6jgekwgeYwHQYDVR0O
+BBYEFMWbhmfG9MruP0IB8LfFzaFwItdyMB8GA1UdIwQYMBaAFOxPby7m9mTsFzAq
+EHbCvTh62qCvMD4GA1UdHwQ3MDUwM6AxoC+GLWh0dHA6Ly9sb2NhbGhvc3Q6ODAw
+MC9jcmwvZGlzdHJpcG9pbnQuY3JsLnBlbTAWBgNVHSAEDzANMAsGCWCGSAFlAgEL
+JDAOBgNVHQ8BAf8EBAMCBaAwIAYDVR0lAQH/BBYwFAYIKwYBBQUHAwEGCCsGAQUF
+BwMCMBoGA1UdEQQTMBGCCWxvY2FsaG9zdIcEAQEBBDANBgkqhkiG9w0BAQsFAAOC
+AQEAXsfDyq6djOgJJxSVgmPNg3WMzZFfBHY2tui9IWsr9GoCwyqBnm/2cx1s4K+H
+ZDSQRgsMlCEMHmpH7lWcOJbHaquBvt66NqsN21rNm58FkzNXlAuUbTffbL5hddQh
+Xp29sEYvqvEFZnLXUEr2Fi8JzHTtD/ps9/R7OecDdkjt1wsZlM2+HD4lOcS/wEKL
+OfgefTyK9edALDHa+PfuJcsSXe7anC6zENO1jEzWDdRZFTnNnKRYuAaspSwPhHx9
++qBRWnyIp8bpL3xWklP1Z2p0LXill4uvAlgmp1sqiaYQK2W7xJp/g4Hl4eQKrO7/
+3EPIP8mvtbLa4s5RMie+NV/Vcg==
+-----END CERTIFICATE-----
