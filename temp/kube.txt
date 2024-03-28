@@ -1,0 +1,526 @@
+ 1330  kubectl
+ 1331  kubectl
+ 1333  $ kubectl get pods --namespace cert-manager -o jsonpath="{.items[*].spec.containers[*].image}"
+ 1334  $ kubectl get pods 
+ 1335  kubectl get pods 
+ 1336  kubectl get nodes
+ 1337  kubectl get
+ 1338  kubectl get -h
+ 1339  kubectl get pod jagger-796b86c9d5-l4tqg -o
+ 1340  kubectl get -k dir/
+ 1341  kubectl get pods
+ 1342  kubectl get deployments
+ 1343  kubectl get pods --all-namespaces
+ 1344  kubectl get pods --all-namespaces | grep default
+ 1345  kubectl get services
+ 1346  kubectl describe services/jagger
+ 1347  kubectl get deployments
+ 1348  kubectl create deployment buddy --image=ghcr.io/sbelgard19/buddy
+ 1349  kubectl get deployments
+ 1350  kubectl get pods
+ 1351  kubectl describe pod
+ 1364  kubectl get pods
+ 1365  kubectl delete pod buddy
+ 1366  kubectl delete pod buddy-66d7d7c4d9-jqltt
+ 1367  kubectl create deployment buddy --image=ghcr.io/sbelgard19/buddy
+ 1368  kubectl get deployments
+ 1369  kubectl delete deployment buddy -n=default
+ 1370  kubectl create deployment buddy --image=ghcr.io/sbelgard19/buddy
+ 1371  kubectl get deployments
+ 1372  kubectl get pods
+ 1374  kubectl get pods
+ 1375  kubectl describe pod jagger
+ 1376  kubectl describe pod buddy
+ 1377  kubectl describe pod jagger
+ 1378  kubectl describe pod buddy
+ 1379  kubectl get pods
+ 1380  kubectl delete deployment buddy -n=default
+ 1381  kubectl get pods
+ 1382  kubectl get deployments
+ 1383  kubectl create deployment buddy --image=ghcr.io/sbelgard19/buddy:ssl
+ 1384  kubectl get deployments
+ 1385  kubectl get pods
+ 1386  kubectl describe pod buddy
+ 1389  kubectl delete deployment buddy -n=default
+ 1390  kubectl get pods
+ 1391  kubectl create deployment buddy --image=buddy:ssl
+ 1392  kubectl get pods
+ 1393  kubectl describe pod buddy
+ 1394  kubectl get pods
+ 1395  kubectl get deployment
+ 1396  kubectl describe services/buddy
+ 1397  kubectl describe services/buddy:ssl
+ 1398  kubectl describe services buddy
+ 1399  kubectl describe services 
+ 1400  kubectl get deployment
+ 1401  kubectl get pods
+ 1402  kubectl describe services buddy
+ 1403  kubectl describe services jagger
+ 1404  kubectl describe deployments
+ 1405  kubectl get namespaces
+ 1406  kubectl expose deployment buddy --port=443 --target-port=8099 --name=default
+ 1407  kubectl describe deployments
+ 1408  kubectl describe deployment buddy
+ 1413  kubectl get deployment
+ 1414  kubectl get pods
+ 1415  kubectl delete deployment buddy -n=default
+ 1416  kubectl get pods
+ 1417  kubectl create deployment buddy --image=buddy:ssl --port=8443 --target-port=8099 --name=default
+ 1418  kubectl create deployment buddy --image=buddy:ssl --port=8443 --name=default
+ 1419  kubectl create deployment buddy --image=buddy:ssl --port=8443 
+ 1427  kubectl get pods
+ 1428  kubectl delete deployment buddy -n=default
+ 1429  kubectl get pods
+ 1430  kubectl create deployment buddy --image=buddy:ssl
+ 1431  kubectl expose deployment buddy --port=443 --target-port=8099 --name=default
+ 1432  kubectl expose deployment buddy --port=443 --target-port=8099 
+ 1434  kubectl describe pod buddy
+ 1435  kubectl delete deployment buddy -n=default
+ 1436  kubectl create deployment buddy --image=buddy:ssl
+ 1437  kubectl describe pod buddy
+ 1438  kubectl expose deployment buddy --port=8443 --target-port=8099 
+ 1439  kubectl get services
+ 1440  kubectl delete deployment buddy -n=default
+ 1441  kubectl get services
+ 1442  kubectl describe pod buddy
+ 1443  kubectl delete deployment buddy
+ 1444  kubectl delete services buddy
+ 1445  kubectl get services
+ 1458  kubectl create deployment buddy --image=buddy:ssl2
+ 1465  kubectl get deploy buddy -o yaml
+ 1466  kubectl get deploy jagger -o yaml
+ 1472  kubectl create deployment buddy2 --image=sbelgard/buddy:docker.ssl2
+ 1475  kubectl get pods
+ 1476  kubectl get deployments
+ 1477  kubectl config view
+ 1479  kubectl describe jagger
+ 1480  kubectl describe pod jagger
+ 1481  kubectl create -f foo
+ 1482  kubectl create -f ./foo
+ 1484  kubectl create -f ./foo
+ 1485  kubectl expose service buddy2 --port=443 --target-port=8443 --name=buddy2-https
+ 1486  kubectl show pods
+ 1487  kubectl get pods
+ 1488  kubectl get service
+ 1489  kubectl get pods
+ 1490  kubectl delete deploymen
+ 1491  kubectl get pods
+ 1492  kubectl get service
+ 1493  kubectl get deployment
+ 1494  kubectl del deployment buddy
+ 1495  kubectl delete deployment buddy
+ 1496  kubectl get deployment
+ 1497  kubectl get service
+ 1498  kubectl create deployment buddy --image=sbelgard/buddy:docker.ssl2 --port=443 --target-port=8999
+ 1499  kubectl create deployment buddy --image=sbelgard/buddy:docker.ssl2 --port=443 -target-port=8999
+ 1500  kubectl create deployment buddy --image=sbelgard/buddy:docker.ssl2 --port=443 target-port=8999
+ 1501  kubectl create deployment buddy --image=sbelgard/buddy:docker.ssl2 port=443 target-port=8999
+ 1502  kubectl create deployment buddy --image=sbelgard/buddy:docker.ssl2 -target-port=8999
+ 1503  kubectl create deployment buddy --image=sbelgard/buddy:docker.ssl2 --target-port=8999
+ 1504  kubectl delete deployment jagger
+ 1505  kubectl get service
+ 1506  kubectl delete service jagger
+ 1507  kubectl get service
+ 1508  kubectl get deployments
+ 1509  kubectl get pod
+ 1510  kubectl create deployment buddy2 --image=sbelgard/buddy:docker.ssl2
+ 1511  kubectl get pod
+ 1512  kubectl get deployments
+ 1513  kubectl get service
+ 1514  kubectl expose deployment buddy2 --port=443 --target-port=8099
+ 1515  kubectl get service
+ 1516  kubectl get deployments
+ 1518  kubectl get deployments
+ 1519  kubectl delete deployment buddy2
+ 1520  kubectl get deployments
+ 1521  kubectl get pods
+ 1522  kubectl get service
+ 1523  kubectl delete service buddy2
+ 1524  kubectl get service
+ 1525  kubectl get pod
+ 1526  kubectl create deployment jagger --image=jagger:1.0
+ 1527  kubectl get pod
+ 1528  kubectl get services
+ 1529  kubectl get deployments
+ 1530  kubectl expose service jagger --port=80 --target-port=8084
+ 1531  kubectl get deployments
+ 1532  kubectl get pods
+ 1533  kubectl expose service jagger-558944b5db-nzg5q --port=80 --target-port=8084 
+ 1534  kubectl describe pods jagger
+ 1535  kubectl delete pods jagger
+ 1536  kubectl get pods
+ 1537  kubectl delete pods jaggerjagger-558944b5db-nzg5q
+ 1538  kubectl delete pods jagger-558944b5db-nzg5q
+ 1539  kubectl get pods
+ 1540  kubectl delete pods NAME                      READY   STATUS    RESTARTS   AGE
+ 1542  kubectl delete pods jagger-558944b5db-262nw
+ 1543  kubectl get pods
+ 1544  kubectl del pods jagger-558944b5db-pb85t
+ 1545  kubectl delete pods jagger-558944b5db-pb85t
+ 1546  kubectl get pods
+ 1547  kubectl delete deployment jagger
+ 1548  kubectl get pods
+ 1549  kubectl get deployments
+ 1550  kubectl get services
+ 1551  kubectl create deployment jagger -image=sbelgard/jagger:docker.hub
+ 1552  kubectl create deployment jagger --image=sbelgard/jagger:docker.hub
+ 1553  kubectl get services
+ 1554  kubectl get deployments
+ 1555  kubectl get pods
+ 1556  kubectl get service
+ 1557  kubectl get pods
+ 1558  kubectl expose pod jagger-865655b749-dlxht --port=8084
+ 1559  kubectl get service
+ 1560  kubectl get pods
+ 1561  kubectl get deployment
+ 1563  kubectl describe jagger
+ 1564  kubectl describe jagger-865655b749-dlxht
+ 1565  kubectl describe services/jagger
+ 1566  kubectl get service
+ 1567  kubectl describe services/jagger-865655b749-dlxht 
+ 1568  kubectl expose pod jagger-865655b749-dlxht --port=80 --targetport=8084
+ 1569  kubectl expose pod jagger-865655b749-dlxht --port=80 --target-port=8084
+ 1570  kubectl delete service jagger-865655b749-dlxht
+ 1571  kubectl expose pod jagger-865655b749-dlxht --port=80 --target-port=8084
+ 1572  kubectl describe services/jagger-865655b749-dlxht 
+ 1573  kubectl get deploy jagger -o yaml 
+ 1574  kubectl describe pod jagger
+ 1575  kubectl get pods
+ 1576  kubectl get deployments
+ 1577  kubectl delete deployments jagger
+ 1578  kubectl get pods
+ 1579  kubectl get services
+ 1580  kubectl delete services jagger-865655b749-dlxht
+ 1581  kubectl get services
+ 1585  kubectl create deployment jagger --image=jagger:23Mar
+ 1586  kubectl get pod
+ 1587  kubectl get deployment
+ 1588  kubectl get service
+ 1589  kubectl describe deployment jagger
+ 1590  kubectl describe pod jagger-7c97595cdb-wpkwj
+ 1591  kubectl get service
+ 1592  kubectl expose pod jagger-7c97595cdb-wpkwj --port=80 --target-port=8443
+ 1593  kubectl get service
+ 1594  kubectl describe pod jagger-7c97595cdb-wpkwj
+ 1595  kubectl expose jagger --port=80 --target-port=8084
+ 1596  kubectl get service
+ 1597  kubectl expose jagger-7c97595cdb-wpkwj --port=80 --target-port=8084
+ 1598  kubectl expose service jagger-7c97595cdb-wpkwj --port=80 --target-port=8084
+ 1599  kubectl get services
+ 1600  kubectl delete service jagger-7c97595cdb-wpkwj 
+ 1601  kubectl get services
+ 1602  kubectl get pod
+ 1603  kubectl get deployment
+ 1604  kubectl delete deployment jagger
+ 1605  kubectl get deployment
+ 1606  kubectl get pod
+ 1607  kubectl get services
+ 1608  kubectl create deployment jagger --image=jagger:23Mar
+ 1609  kubectl get pod
+ 1610  kubectl expose  jagger-7c97595cdb-slkxm --port=80 --target-port=8084
+ 1612  kubectl expose deployment jagger --port=80 --target-port=8084
+ 1613  kubectl get pod
+ 1614  kubectl get service
+ 1616  kubectl get pod
+ 1617  cd ../kubernetes/
+ 1619  kubectl apply -f test.yaml
+ 1621  kubectl get services
+ 1623  kubectl apply -f test.yaml
+ 1624  kubectl get deploy jagger -o yaml
+ 1625  kubectl get deployments
+ 1626  kubectl delete deployments jagger
+ 1627  kubectl get service
+ 1628  kubectl delete service foo
+ 1629  kubectl delete service jagge
+ 1630  kubectl get pod
+ 1631  kubectl create deployment jagger --image=jagger:23Mar
+ 1633  kubectl apply -f test.yaml
+ 1634  kubectl get service
+ 1635  kubectl dezcribe service jagger
+ 1636  kubectl describe service jagger
+ 1637  kubectl expose jagger --port=80 --target-port=8084
+ 1638  kubectl expose deployment jagger --port=80 --target-port=8084
+ 1639  kubectl get service
+ 1640  kubectl delete service jagger
+ 1641  kubectl delete deployment jagger
+ 1642  kubectl get pods
+ 1644  kubectl create deployment jagger --image=jagger:23Mar
+ 1645  kubectl get deployments
+ 1646  kubectl get pods
+ 1647  kubectl expose deployment jagger --port=80 --target-port=8008 --name=jagger
+ 1648  kubectl run curl --image=radial/busyboxplus:curl -i --tty
+ 1651  kubectl get service
+ 1652  kubectl delete pod curl
+ 1653  kubectl get service
+ 1654  kubectl delete service jagger
+ 1655  kubectl delete deployment jagger
+ 1656  kubectl get service
+ 1657  kubectl create deployment jagger --image=jagger:23Mar
+ 1658  kubectl expose deployment jagger --port=80 --target-port=8084
+ 1660  kubectl delete deployment jagger
+ 1661  kubectl delete service jagger
+ 1662  kubectl create deployment jagger --image=jagger:23Mar
+ 1663  kubectl expose deployment jagger --port=80 --target-port=8008 --name=jagger
+ 1664  kubectl get service
+ 1665  kubectl describe service jagger
+ 1666  kubectl delete service jagger
+ 1667  kubectl delete deployment jagger
+ 1668  kubectl create deployment jagger --image=jagger:23Mar
+ 1669  kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8087
+ 1670  kubectl expose deployment/jagger --type="NodePort" --port=80 --target-port=8008 --name=jagger
+ 1671  kubectl describe service jagger
+ 1672  kubectl delete deployment jagger
+ 1673  kubectl delete service jagger
+ 1674  kubectl create deployment jagger --image=jagger:23Mar
+ 1675  kubectl expose deployment/jagger --type="NodePort"  --target-port=8008 --name=jagger
+ 1676  kubectl expose deployment/jagger --type="NodePort" --port=443 --target-port=8008 --name=jagger
+ 1677  kubectl describe service jagger
+ 1678  kubectl get nodes -o wide
+ 1679  kubectl create deployment jagger --image=jagger:23Mar --replicas=3
+ 1680  kubectl delete service jagger
+ 1681  kubectl delete deployment jagger
+ 1682  kubectl create deployment jagger --image=jagger:23Mar --replicas=3
+ 1683  kubectl get pods
+ 1684  kubectl get service
+ 1685  kubectl create deployment jagger --image=jagger:23Mar
+ 1686  kubectl get deployment
+ 1689  kubectl expose deployment/jagger
+ 1690  kubectl apply -f test.yaml
+ 1692  kubectl apply -f test.yaml
+ 1693  kubectl get deployment
+ 1694  kubectl get service
+ 1696  kubectl get service
+ 1697  kubectl get deploy
+ 1698  kubectl describe service my-service
+ 1699  kubectl delete deployment jagger
+ 1700  kubectl delete service jagger
+ 1701  kubectl delete service my-service
+ 1703  kubectl create deployment jagger --image=jagger:23Mar
+ 1704  kubectl get pods
+ 1705  kubectl apply -f test.yaml
+ 1706  kubectl get service
+ 1707  kubectl describe servic jaggere
+ 1708  kubectl describe service jagger
+ 1710  kubectl describe service jagger
+ 1711  kubectl get service
+ 1712  kubectl describe pod jagger
+ 1714  kubectl delete deployment jagger
+ 1715  kubectl delete service jagger
+ 1716  kubectl create deployment jagger --image=jagger:23Mar
+ 1717  kubectl expose deployment/jagger --type="NodePort" --port=443 --target-port=8008 --name=jaggerx
+ 1718  kubectl delete service jaggerx
+ 1719  kubectl delete deployment jagger
+ 1720  kubectl create deployment jagger --image=jagger:23Mar
+ 1721  kubectl expose deployment/jagger --type="NodePort" --port=80 --target-port=8008 --name=jagger
+ 1722  kubectl describe service jagger
+ 1724  kubectl describe deployment jagger
+ 1725  kubectl describe pod jagger
+ 1728  kubectl describe deployment jagger
+ 1729  kubectl get service
+ 1730  kubectl describe deployment jagger
+ 1731  kubectl describe service jagger
+ 1732  kubectl get service
+ 1733  kubectl delete service jagger
+ 1734  kubectl delete deployment jagger
+ 1735  kubectl create deployment jagger --image=jagger:23Mar
+ 1736  kubectl expose deployment/jagger --type="NodePort" --port=80 --target-port=localhost:8008 --name=jagger
+ 1737  kubectl get service
+ 1738  kubectl get deployment
+ 1739  kubectl delete deployment jagger
+ 1740  kubectl delete service jagger
+ 1741  kubectl apply deploy.yaml 
+ 1742  kubectl apply -f deploy.yaml 
+ 1743  kubectl get pods
+ 1744  kubectl get service
+ 1746  kubectl apply -f deploy.yaml 
+ 1747  kubectl delete service jagger
+ 1748  kubectl delete deployment jagger
+ 1749  kubectl apply -f deploy.yaml 
+ 1750  kubectl apply -f expose.yaml 
+ 1751  kubectl get service
+ 1753  kubectl delete deployment jagger
+ 1754  kubectl delete service jagger
+ 1756  kubectl apply -f deploy.yaml 
+ 1757  kubectl apply -f expose.yaml 
+ 1758  kubectl get service
+ 1760  kubectl describe service jagger
+ 1763  kubectl delete service jagger
+ 1764  kubectl delete deployment jagger
+ 1766  kubectl apply -f deploy.yaml 
+ 1767  kubectl apply -f expose.yaml 
+ 1768  kubectl get pods
+ 1769  kubectl get service
+ 1770  kubectl describe service jagger
+ 1772  kubectl delete deployment jagger
+ 1773  kubectl delete service jagger
+ 1774  kubectl apply -f deploy.yaml 
+ 1775  kubectl apply -f expose.yaml 
+ 1777  kubectl apply -f expose.yaml 
+ 1778  kubectl describe service jagger
+ 1780  kubectl delete service jagger
+ 1781  kubectl delete deployment jagger
+ 1782  kubectl apply -f deploy.yaml 
+ 1783  kubectl apply -f expose.yaml 
+ 1784  kubectl describe service jagger
+ 1785  kubectl get service
+ 1788  kubectl get deployment
+ 1789  kubectl get service
+ 1790  kubectl delete deployment jagger
+ 1791  kubectl delete service jagger
+ 1792  kubectl apply -f deploy.yaml 
+ 1793  kubectl get service
+ 1794  kubectl get deployment
+ 1795  kubectl apply -f expose.yaml 
+ 1797  kubectl get deployment
+ 1798  kubectl get service
+ 1799  kubectl describe service jagger
+ 1800  kubectl get pods
+ 1801  kubectl delete service jagger
+ 1802  kubectl delete deployment jagger
+ 1805  kubectl apply -f deploy.yaml 
+ 1806  kubectl apply -f expose.yaml 
+ 1807  kubectl get pods
+ 1808  kubectl get service
+ 1809  kubectl describe service jagger
+ 1811  kubectl delete deployment jagger
+ 1812  kubectl delete service jagger
+ 1813  kubectl apply -f deploy.yaml 
+ 1814  kubectl apply -f expose.yaml 
+ 1815  kubectl describe service jagger
+ 1816  kubectl get service
+ 1817  kubectl get namespaces
+ 1818  kubectl apply -f namespace.yaml 
+ 1820  kubectl apply -f namespace.yaml 
+ 1821  kubectl get namespaces
+ 1822  kubectl describe namespaces
+ 1823  kubectl describe namespace scott
+ 1824  kubectl config view
+ 1825  kubectl config use-context scott
+ 1826  kubectl config current-context
+ 1827  kubectl get jagger
+ 1828  kubectl get pod jagger
+ 1829  kubectl get service jagger
+ 1830  kubectl get service jagger -o yaml
+ 1833  kubectl get service jagger -o yaml
+ 1834  kubectl apply -f deploy.yaml 
+ 1835  kubectl apply -f expose.yaml 
+ 1836  kubectl get service
+ 1837  kubectl get pod
+ 1838  kubectl delete deployment jagger
+ 1839  kubectl delete service jagger
+ 1841  kubectl apply -f deploy.yaml 
+ 1842  kubectl apply -f expose.yaml 
+ 1843  kubectl get service
+ 1844  kubectl describe service jagger
+ 1846  kubectl get pods -l app=jagger -o go-template='{{range .items}}{{.status.podIP}}{{"\n"}}{{end}}'
+ 1847  kubectl get endpoints jagger
+ 1849  kubectl get svc jagger
+ 1850  nslookup kubernetes.default
+ 1851  kubectl get service jagger -o json
+ 1852  kubectl port-forward service/jagger 8099:80
+ 1853  kubectl port-forward service/jagger 8199:80
+ 1856  kubectl delete service jagger
+ 1857  kubectl delete deployment jagger
+ 1858  kubectl apply -f deploy.yaml 
+ 1859  kubectl run jagger --port=8099
+ 1860  kubectl run jagger --image=jagger --port=8099
+ 1861  kubectl delete service jagger
+ 1862  kubectl get service
+ 1863  kubectl get deployment
+ 1864  kubectl delete service jagger
+ 1865  kubectl get deployment
+ 1866  kubectl delete deployment jagger
+ 1867  kubectl get pods
+ 1868  kubectl delele pods jagger
+ 1869  kubectl delete pods jagger
+ 1870  kubectl get pods
+ 1871  kubectl get deployment
+ 1872  kubectl get service
+ 1874  kubectl apply -f deploy.yaml 
+ 1875  kubectl get deployment
+ 1876  kubectl delete deployment jagger
+ 1877  kubectl run jagger --image=jagger:23Mar --port=8099
+ 1879  kubectl get service
+ 1880  kubectl expose deployment jagger --name jagger --type LoadBalancer --port 80 --target-port 8099
+ 1881  kubectl expose deployment jagger --type LoadBalancer --port 80 --target-port 8099
+ 1882  kubectl apply -f deploy.yaml 
+ 1883  kubectl expose deployment jagger --type LoadBalancer --port 80 --target-port 8099
+ 1884  kubectl get service
+ 1887  kubectl delete service jagger
+ 1888  kubectl delete deployment jagger
+ 1889  kubectl apply -f deploy.yaml 
+ 1891  kubectl delete deployment jagger
+ 1892  kubectl apply -f deploy.yaml 
+ 1894  kubectl apply -f deploy.yaml 
+ 1895  kubectl apply -f deploy.yaml 2345
+ 1896  kubectl delete service jagger
+ 1897  kubectl delete deployment jagger
+ 1898  kubectl apply -f deploy.yaml
+ 1900  kubectl apply -f deploy.yaml
+ 1903  kubectl apply -f deploy.yaml
+ 1904  kubectl get service
+ 1905  kubectl get pods
+ 1906  kubectl get service
+ 1907  kubectl delete pod jagger
+ 1908  kubectl apply -f deploy.yaml
+ 1910  kubectl apply -f deploy.yaml
+ 1911  kubectl namespace
+ 1912  kubectl get namespace
+ 1914  kubectl apply -f deploy.yaml
+ 1915  kubectl create deployment jagger --image=jagger:23Mar
+ 1916  kubectl get deployment -o yaml
+ 1917  kubectl delete deployment jagger
+ 1918  kubectl apply -f deploy.yaml
+ 1920  kubectl apply -f deploy.yaml
+ 1922  kubectl apply -f deploy.yaml
+ 1923  kubectl get deployment -o yaml
+ 1924  kubectl apply -f expose.yaml 
+ 1926  kubectl get service -o yaml
+ 1928  kubectl get service
+ 1929  kubectl delete service jagger
+ 1930  kubectl delete deployment jagger
+ 1931  kubectl apply -f deploy.yaml 
+ 1932  kubectl get service
+ 1933  kubectl get pod
+ 1934  kubectl get deployment
+ 1935  kubectl delete deployment jagger-deployment
+ 1936  kubectl apply -f deploy.yaml 
+ 1937  kubectl apply -f expose2.yaml 
+ 1938  kubectl get deployment
+ 1939  kubectl get service
+ 1942  kubectl delete deployment jagger-deployment
+ 1943  kubectl delete service jagger
+ 1944  kubectl apply -f deploy.yaml 
+ 1945  kubectl apply -f expose2.yaml 
+ 1946  kubectl get service
+ 1947  kubectl delete service jagger
+ 1948  kubectl delete deployment jagger
+ 1953  kubectl apply -f deploy.yaml 
+ 1954  kubectl apply -f expose.yaml 
+ 1956  kubectl apply -f expose.yaml 
+ 1958  kubectl delete service jagger
+ 1959  kubectl delete deployment jagger
+ 1960  kubectl apply -f deploy.yaml 
+ 1961  kubectl apply -f expose.yaml 
+ 1962  kubectl get service
+ 1965  kubectl create -f FILENAME
+ 1967  kubectl create -f test.yaml 
+ 1968  kubectl delete service jagger
+ 1969  kubectl delete deployment jagger
+ 1970  kubectl create -f deploy.yaml 
+ 1972  kubectl create -f expose.yaml 
+ 1974  kubectl delete deployment jagger
+ 1975  kubectl delete service jagger
+ 1976  kubectl create -f deploy.yaml 
+ 1979  kubectl create -f expose.yaml 
+ 1981  kubectl get service
+ 1986  kubectl delete service jagger
+ 1987  kubectl delete deployment jagger
+ 1988  kubectl apply -f deploy.yaml 
+ 1989  kubectl apply -f expose.yaml 
+ 1991  kubectl apply -f expose.yaml 
+ 1993  kubectl apply -f expose.yaml 
+ 1995  kubectl get service
+ 2258  kubectl get namespaces
+ 2259  history | grep kube
+ 2260  history | grep kube > kube.txt

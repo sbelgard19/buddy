@@ -1,0 +1,39 @@
+# COSIGN_EXPERIMENTAL=1 cosign attest --predicate  xtech-spdx.sbom   \
+    --oidc-issuer "https://oauth2.sigstore.dev/auth" \
+    --fulcio-url "https://fulcio.sigstore.dev" \
+    --rekor-url "https://rekor.sigstore.dev" \
+docker.io/sbelgard/xtech:docker.hub@sha256:7da9c442757327f40070ce24f86cdb6f776b4c5752a5182c188bd2f72a0a4f8a  > attest-spdx.log
+Generating ephemeral keys...
+Retrieving signed certificate...
+
+        Note that there may be personally identifiable information associated with this signed artifact.
+        This may include the email address associated with the account with which you authenticate.
+        This information will be used for signing this artifact and will be stored in public transparency logs and cannot be removed later.
+
+By typing 'y', you attest that you grant (or have permission to grant) and agree to have this information stored permanently in transparency logs.
+Are you sure you would like to continue? [y/N] y
+Your browser will now be opened to:
+https://oauth2.sigstore.dev/auth/auth?access_type=online&client_id=sigstore&code_challenge=GChVrSGD4tQVxe9yE29OBN6eEjj-44IX4Mk3nIHnINU&code_challenge_method=S256&nonce=2Zro06lSWIq2UBma0YeIvN5nPBi&redirect_uri=http%3A%2F%2Flocalhost%3A38737%2Fauth%2Fcallback&response_type=code&scope=openid+email&state=2Zro047sO0Y8CvbzFCLPiC0VXQd   
+Successfully verified SCT...
+Using payload from: xtech-spdx.sbom
+using ephemeral certificate:
+-----BEGIN CERTIFICATE-----
+MIIC1jCCAlugAwIBAgIUbaMEv2UMugikRKsRXeeh3dEHah8wCgYIKoZIzj0EAwMw
+NzEVMBMGA1UEChMMc2lnc3RvcmUuZGV2MR4wHAYDVQQDExVzaWdzdG9yZS1pbnRl
+cm1lZGlhdGUwHhcNMjMxMjIxMjAwODU0WhcNMjMxMjIxMjAxODU0WjAAMFkwEwYH
+KoZIzj0CAQYIKoZIzj0DAQcDQgAEqIA6Dyo/RcuIn6OAWgqGpK9pPtnV3cXhdN67
+8SY3DaPgo7ExErJmKhVKnb5jRTx7c6WtjnkLdzFQaCjpKmcO1KOCAXowggF2MA4G
+A1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQU10wE
+MLcQbgr/CQWMsHK8yN6Pgl0wHwYDVR0jBBgwFoAU39Ppz1YkEZb5qNjpKFWixi4Y
+ZD8wJQYDVR0RAQH/BBswGYEXYmVsZ2FyZC5zY290dEBnbWFpbC5jb20wLAYKKwYB
+BAGDvzABAQQeaHR0cHM6Ly9naXRodWIuY29tL2xvZ2luL29hdXRoMC4GCisGAQQB
+g78wAQgEIAweaHR0cHM6Ly9naXRodWIuY29tL2xvZ2luL29hdXRoMIGJBgorBgEE
+AdZ5AgQCBHsEeQB3AHUA3T0wasbHETJjGR4cmWc3AqJKXrjePK3/h4pygC8p7o4A
+AAGMjf7LlAAABAMARjBEAiAh7aYZymAY8Hb3alxhoqnzq+vElv0s+AClaQ+XwifI
+vgIge8mP3ICCPZZjuDxTnit4nA3WlQJmMp2oYUSxEiz631YwCgYIKoZIzj0EAwMD
+aQAwZgIxANRMEEAHrbedr7gYbRc4BfK9z+SrdzvZn2iCbXJKZm+9baICkDKDzR1K
+znMTRqiHIAIxAOhPtjHYcXAwFFCv2JdP1HfummfIarekLmsU0r1jh7ScrhIKsRXk
+UczQDPpfwNa96Q==
+-----END CERTIFICATE-----
+
+tlog entry created with index: 58502351

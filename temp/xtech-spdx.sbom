@@ -1,0 +1,9 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: docker.io/sbelgard/xtech:docker.hub@sha256:7da9c442757327f40070ce24f86cdb6f776b4c5752a5182c188bd2f72a0a4f8a
+DocumentNamespace: http://aquasecurity.github.io/trivy/container_image/docker.io/sbelgard/xtech:docker.hub@sha256:7da9c442757327f40070ce24f86cdb6f776b4c5752a5182c188bd2f72a0a4f8a-a4b6f333-a2a4-494c-a4de-2b823c658989
+Creator: Organization: aquasecurity
+Creator: Tool: trivy
+Created: 2023-12-21T18:14:28.523870262Z
+
